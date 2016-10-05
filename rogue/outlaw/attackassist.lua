@@ -14,9 +14,10 @@
         [6] = "Run Through (B)",
         [7] = "Crimson Vial",
         [8] = "Blade Flurry",
-        [9] = "Roll (Recast)",
-        [10] = "Roll (Cast)",
-        [11] = "MfD",
+        [9] = "MfD",
+        [10] = "COD CD",
+        [11] = "AR CD",
+        [12] = "RTB Buff",
     },
     ["borderBackdrop"] = "Blizzard Tooltip",
     ["disjunctive"] = "all",
@@ -79,7 +80,6 @@
             },
         },
         ["class"] = {
-            ["single"] = "ROGUE",
         },
         ["difficulty"] = {
             ["multi"] = {
@@ -89,7 +89,6 @@
             ["multi"] = {
             },
         },
-        ["use_class"] = "true",
         ["faction"] = {
             ["multi"] = {
             },
@@ -111,5 +110,5 @@
             },
         },
     },
-    ["expanded"] = false,
+    ["expanded"] = true,
 }
