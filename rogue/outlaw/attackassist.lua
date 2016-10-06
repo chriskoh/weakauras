@@ -9,15 +9,17 @@
         [1] = "Saber Slash (NB)",
         [2] = "Opportunity (NB)",
         [3] = "Run Through (NB)",
-        [4] = "Saber Slash (B)",
+        [4] = "Saber Slash(B)",
         [5] = "Opportunity (B)",
         [6] = "Run Through (B)",
         [7] = "Crimson Vial",
         [8] = "Blade Flurry",
-        [9] = "MfD",
-        [10] = "COD CD",
-        [11] = "AR CD",
-        [12] = "RTB Buff",
+        [9] = "Blade Flurry Out of Combat",
+        [10] = "MfD",
+        [11] = "RTB Buff",
+        [12] = "Kick",
+        [13] = "AR CD",
+        [14] = "COD CD",
     },
     ["borderBackdrop"] = "Blizzard Tooltip",
     ["disjunctive"] = "all",
@@ -30,60 +32,74 @@
     ["actions"] = {
         ["start"] = {
         },
-        ["init"] = {
-        },
         ["finish"] = {
+        },
+        ["init"] = {
         },
     },
     ["borderOffset"] = 5,
-    ["xOffset"] = 0,
+    ["expanded"] = true,
     ["selfPoint"] = "BOTTOMLEFT",
     ["id"] = "Pirate",
     ["animation"] = {
         ["start"] = {
-            ["type"] = "none",
             ["duration_type"] = "seconds",
+            ["type"] = "none",
         },
         ["main"] = {
-            ["type"] = "none",
             ["duration_type"] = "seconds",
+            ["type"] = "none",
         },
         ["finish"] = {
-            ["type"] = "none",
             ["duration_type"] = "seconds",
+            ["type"] = "none",
         },
     },
     ["frameStrata"] = 1,
-    ["anchorPoint"] = "CENTER",
-    ["trigger"] = {
-        ["type"] = "aura",
-        ["spellIds"] = {
-        },
-        ["unit"] = "player",
-        ["debuffType"] = "HELPFUL",
-        ["names"] = {
-        },
-    },
-    ["borderInset"] = 11,
-    ["numTriggers"] = 1,
-    ["yOffset"] = -180,
+    ["borderEdge"] = "None",
     ["borderColor"] = {
         [1] = 1,
         [2] = 1,
         [3] = 1,
         [4] = 0.5,
     },
-    ["borderEdge"] = "None",
+    ["borderInset"] = 11,
+    ["numTriggers"] = 1,
+    ["yOffset"] = -180,
+    ["trigger"] = {
+        ["type"] = "aura",
+        ["spellIds"] = {
+        },
+        ["names"] = {
+        },
+        ["debuffType"] = "HELPFUL",
+        ["unit"] = "player",
+    },
+    ["anchorPoint"] = "CENTER",
     ["load"] = {
         ["talent"] = {
             ["multi"] = {
             },
         },
-        ["class"] = {
+        ["spec"] = {
+            ["multi"] = {
+            },
+        },
+        ["use_class"] = "true",
+        ["race"] = {
+            ["multi"] = {
+            },
         },
         ["difficulty"] = {
             ["multi"] = {
             },
+        },
+        ["pvptalent"] = {
+            ["multi"] = {
+            },
+        },
+        ["class"] = {
+            ["single"] = "ROGUE",
         },
         ["role"] = {
             ["multi"] = {
@@ -93,22 +109,10 @@
             ["multi"] = {
             },
         },
-        ["spec"] = {
-            ["multi"] = {
-            },
-        },
-        ["race"] = {
-            ["multi"] = {
-            },
-        },
-        ["pvptalent"] = {
-            ["multi"] = {
-            },
-        },
         ["size"] = {
             ["multi"] = {
             },
         },
     },
-    ["expanded"] = true,
+    ["xOffset"] = 0,
 }
