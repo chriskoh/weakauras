@@ -9,4 +9,4 @@ Roll the bones buff tracker with cool down timer
 
 Attack assist
 
-![Outlaw Rogue](http://imgur.com/9MmStkJ)
+![Outlaw Rogue](http://i.imgur.com/9MmStkJ.png)
