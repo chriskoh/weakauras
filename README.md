@@ -8,3 +8,5 @@ weakauras will take into consideration the players current resource levels (Ener
 Roll the bones buff tracker with cool down timer
 
 Attack assist
+
+![Outlaw Rogue](http://imgur.com/9MmStkJ)
